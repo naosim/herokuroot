@@ -11,7 +11,7 @@ class HelloApi {
     @RequestMapping(value = ["/hello"], method = [RequestMethod.GET])
     operator fun invoke(): Map<*, *> {
         val res = HashMap<String, Any>()
-        res["hello"] = "hello"
+        res["hello"] = "hello2020"
         return res
     }
 
